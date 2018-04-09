@@ -1,4 +1,4 @@
-# tinder-ui
+# Tinder-UI
 This repo has sample code for the Tinder Like Application for Ionic Developers. You can simply download and implement your logic for your starter app in Ionic.
 
 This repo eases your work for creating a complex app. You can use this as a example project. 
