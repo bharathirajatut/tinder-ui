@@ -1,0 +1,92 @@
+page-photo {
+    .circle {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        font-size: 18px;
+        color: tomato;
+        line-height: 30px;
+        text-align: center;
+        background: #d3d3d3 !important;
+        
+      }
+      
+
+        ion-card {
+          position: relative;
+          text-align: center;
+        }
+      
+        .card-title {
+          position: absolute;
+          top: 36%;
+          font-size: 2.0em;
+          width: 100%;
+          font-weight: bold;
+          color: #fff;
+        }
+      
+        .card-subtitle {
+          font-size: 1.0em;
+          position: absolute;
+          top: 52%;
+          width: 100%;
+          color: #fff;
+        }
+      
+    .imgsm{
+        width: 30px; 
+        height: 30px; 
+        border-radius: 50%; 
+        font-size: 18px;
+        color: tomato; 
+        line-height: 30px; 
+        text-align: center;
+        background: white !important;
+        z-index:2; 
+        margin-top:-115px;
+        margin-left: -5px;  
+        position: absolute;
+    }  
+    .imglg{
+        width: 30px; 
+        height: 30px; 
+        border-radius: 50%; 
+        font-size: 18px;
+        color: tomato; 
+        line-height: 30px; 
+        text-align: center;
+        background: white !important;
+        z-index:2; 
+        margin-top:-235px;  
+        margin-left: -5px;  
+        position: absolute;
+    }
+    .imgsmb{
+        width: 30px; 
+        height: 30px; 
+        border-radius: 50%; 
+        font-size: 18px;
+        color: tomato; 
+        line-height: 30px; 
+        text-align: center;
+        background: white !important;
+        z-index:2; 
+        margin-top:-30px;
+        right:3px;  
+        position: absolute;
+    }  
+    .toggle-md.toggle-checked .toggle-icon {
+        background: linear-gradient(to right, #3A1C71 , #D76D77, #FFAF7B)
+    }
+    .toggle-md.toggle-checked .toggle-inner {
+        background: white
+    }
+    .toggle-ios.toggle-checked .toggle-icon{
+        background: linear-gradient(to right, #3A1C71 , #D76D77, #FFAF7B)
+    }
+    .butn{
+        background: linear-gradient(to right, #3A1C71 , #D76D77, #FFAF7B);
+        border-radius: 20px;
+    }
+}

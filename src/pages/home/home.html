@@ -1,0 +1,54 @@
+<ion-header>
+  <ion-navbar style="min-height:80px">
+   <ion-grid>
+     <ion-row>
+        <ion-col>         
+            <img src="images/profile.jpeg" style="width:60px;height:60px;border-radius:50%">         
+        </ion-col>
+        <ion-col style="margin-top:10px">
+            <div class="can-toggle" >
+              <div class="can-toggle demo-rebrand-2" >                 
+                    <input id="e" type="checkbox" >                
+                    <label for="e">                
+                      <div class="can-toggle__switch" data-checked="On" data-unchecked="No" style="max-width:150px; max-height:50px"></div>             
+                    </label>
+                  </div>
+                  </div>
+                </ion-col>
+        <ion-col text-right style="margin-top:-5px">
+          <button ion-button icon-only large clear color="dark" (click)="chatm()">
+            <ion-icon name="ios-text"></ion-icon>
+          </button>
+        </ion-col>
+     </ion-row>
+   </ion-grid>    
+   </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div >
+  <p text-center >
+    <img src="images/profile.jpeg" style="min-height:100%; max-width:90%;border-radius:5%;margin-top:10px;box-shadow: 2px 3px 5px grey;">  
+  </p>  
+  <h3 text-center>Kiara Advani, 24</h3>
+</div>
+  <div text-center style="bottom:10px;position:fixed; align-content:center">
+    <ion-buttons text-center >
+        <button (click)="prof()" ion-button icon-only  outline color="cusyellow" style="width:50px;height:50px;border-radius:50%">
+            <ion-icon name="md-refresh"></ion-icon>
+          </button>
+          <button ion-button icon-only outline color="danger" style="width:70px;height:70px;border-radius:50%">
+              <ion-icon name="md-close"></ion-icon>
+            </button>
+          <button ion-button icon-only outline color="cuspurple" style="width:50px;height:50px;border-radius:50%" (click)="chatid()">
+                <ion-icon name="md-flash"></ion-icon>
+          </button>
+          <button ion-button icon-only outline color="secondary" (click)="lgn()" style="width:70px;height:70px;border-radius:50%">
+                <ion-icon name="md-heart"></ion-icon>
+          </button>
+          <button ion-button icon-only outline color="primary" style="width:50px;height:50px;border-radius:50%" (click)="pho()">
+               <ion-icon name="md-star"></ion-icon>
+            </button>
+    </ion-buttons>
+  </div>
+</ion-content>
