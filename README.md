@@ -9,6 +9,18 @@ To learn Ionic 2 and 3 visit,
 
 2. https://ampersandacademy.com/tutorials/ionic-framework-3
 
+# how to try this demo app
+
+1. Create a new Ionic 3 project using
+
+`ionic start tinderApp blank`
+
+2. Download and replace the src, www folder.
+
+3. Then preview the app using
+
+`ionic serve -l`
+
 
 # Screens:
 
